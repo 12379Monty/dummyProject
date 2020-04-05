@@ -8,8 +8,10 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Welcome to my dummy research website.
 
-edit
+In this project, I am just trying to get familiar with  the `workflowr` package.
 
-Click on this [link](first-analysis.html) to see my results.
+Click on this [link](first-analysis.html) to see my first analysis results.
+
+

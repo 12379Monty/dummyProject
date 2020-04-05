@@ -7,9 +7,19 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Introduction
 
-```{r}
+Below is a map that shows the location of the
+Department of Statistics, University of California, Berkeley.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+
+leaflet() %>% addTiles() %>%
+  setView(lat=37.873710, lng=-122.257708, zoom = 17) %>%
+  addMarkers(
+    lat=37.873710, lng=-122.257708,
+    popup="https://statistics.berkeley.edu/")
 
 ```
+
 
